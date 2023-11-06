@@ -77,7 +77,7 @@ int main() {
                             if (grossWages <= 300) {
      
                                     taxDeductions = grossWages * TAXRATE_300; // Total tax deductions
-//                                
+                           
                             }  else if (grossWages> 300 && grossWages <= 450) { 
                                     
                                     taxDeductions = (300 * 0.15) + ((grossWages - 300) * TAXRATE_150);  // Total tax deductions
